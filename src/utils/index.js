@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-const mapDBToModel = ({ 
+const mapDBToModel = ({
   id,
   title,
   body,

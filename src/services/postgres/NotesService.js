@@ -13,7 +13,6 @@ class NotesService {
     const id = nanoid(16);
     const createdAt = new Date().toISOString();
     const updatedAt = createdAt;
-    const mapDBToModel = require('../../utils');
 
     const query = {
       text: 'INSERT INTO notes VALUES($1, $2, $3, $4, $5, $6) RETURNING id',
